@@ -48,12 +48,12 @@ public class MainAutomous {
         // Initializing grabber motors
         String grabberMotor1 = "grabberMotor1";
         String grabberMotor2 = "grabberMotor2";
-        Grabber graber = new Grabber(grabberMotor1, grabberMotor2);
+        Grabber grabber = new Grabber(grabberMotor1, grabberMotor2);
         
 
         // Calling the special function that denotes time for auto mode
         MainAutomous mainAuto = new MainAutomous();
-        mainAuto.SpecialTimerFunction(movement, arm, graber);
+        mainAuto.SpecialTimerFunction(movement, arm, grabber);
     }
     
 }
