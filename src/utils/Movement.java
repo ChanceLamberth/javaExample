@@ -1,3 +1,4 @@
+package utils;
 import java.util.ArrayList;
 
 public class Movement implements Interfaces.Movement{
@@ -18,25 +19,25 @@ public class Movement implements Interfaces.Movement{
     }
     @Override
     public void moveRight() {
-        System.out.println("We are moving right");
+        System.out.println("\nWe are moving right");
         System.out.println("We are using motor named: " + motor1);
-        System.out.println("We are using motor named: " + motor2);
+        System.out.println("We are using motor named: " + motor2 + "\n");
     }
 
     @Override
     public void moveLeft() {
-        System.out.println("We are moving left");
+        System.out.println("\nWe are moving left");
         System.out.println("We are using motor named: " + motor3);
-        System.out.println("We are using motor named: " + motor4);
+        System.out.println("We are using motor named: " + motor4 + "\n");
     }
 
     @Override
     public void moveForward() {
-        System.out.println("We are moving forward");
+        System.out.println("\nWe are moving forward");
         System.out.println("We are using motor named: " + motor1);
         System.out.println("We are using motor named: " + motor2);
         System.out.println("We are using motor named: " + motor3);
-        System.out.println("We are using motor named: " + motor4);
+        System.out.println("We are using motor named: " + motor4 + "\n");
     }
 
     @Override
